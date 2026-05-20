@@ -1,0 +1,23 @@
+# --- External Repository for RTX 5070 Ti (CUDA 12.x) ---
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# --- Core Deep Learning Framework (Python 3.13 / RTX 5070 Ti) ---
+torch
+torchvision
+
+# --- Audio Analysis (Phase 1) ---
+librosa==0.11.0
+numpy<2.0.0
+
+# --- Video Processing & CV (Phase 2 & 3) ---
+opencv-python
+pillow
+
+# --- Vision Language Model (Phase 2 - Qwen2-VL) ---
+# 🔥 Python 3.13 対応のため、Hugging Face 系の固定を解除して最新版にします
+transformers
+accelerate
+qwen-vl-utils
+
+# --- Object Detection & Dynamic Tracking (Phase 3 - YOLOv8) ---
+ultralytics==8.2.0
