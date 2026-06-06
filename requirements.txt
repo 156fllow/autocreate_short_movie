@@ -19,4 +19,5 @@ accelerate
 qwen-vl-utils
 
 # --- Object Detection & Dynamic Tracking (Phase 3 - YOLOv8) ---
-ultralytics==8.2.0
+# 🔥 PyTorch 2.6以降のセキュリティ機能との衝突を防ぐため、固定を解除して最新版を導入します
+ultralytics

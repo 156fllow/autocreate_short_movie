@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # ==========================================
 # ⚙️ グローバル設定パラメータ (RTX 5070 Ti 本番仕様)
 # ==========================================
-VIDEO_PATH = "forza.mp4"
+VIDEO_PATH = "apex.mp4"
 OUTPUT_DIR = "./output_shorts"
 FFMPEG_PATH = "./ffmpeg.exe"
 
